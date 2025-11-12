@@ -1,0 +1,262 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+     font-family:"poppins";
+}
+body{
+    background-color: rgba(240, 248, 255, 0.831);
+}
+.logo{
+    height: 70px;
+    width: 220px;
+  /* margin: 4px 33px;   */
+}
+.logo img{
+    height: 100%;
+    width: 100%;
+}
+.navbaar{
+        top: 0;
+        position: fixed; 
+        width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+gap:30%;
+    padding: 7px 7px ;
+    background-color: white;
+    z-index: 1;
+}
+.right-btn{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+   gap: 60px;
+   font-weight: 500;
+    list-style-type: none;
+
+}
+.right-btn a{
+     text-decoration: none;
+     color: black;
+}
+.right-btn li a:hover{
+  color: rgb(0, 128, 208);
+  text-decoration: underline rgb(0, 128, 208);
+}
+.kerafix-chemicals{
+    
+   align-items: center;
+   text-align: center;
+   justify-content: center;
+   padding-top: 20px;
+}
+.kerafix-chemicals h3{
+    padding-top: 103px;
+}
+h2 {
+    padding: 2rem;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.center-image{
+  border-radius: 16px;
+    width: 800px;
+    height: 300px;
+    margin:  15px auto;
+    overflow: hidden;
+    object-fit: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   position: relative;
+}
+.center-image img{
+    width: 100%;
+ object-fit: cover;
+ z-index: 0;
+}
+
+.header-text{
+   margin: auto;
+   padding-top: 15px;
+   width: 50%;
+}
+.center-imagetext{
+    margin:10px;
+position: absolute;
+bottom: 10px;   
+left: 12px;
+
+}
+.center-imagetext h4{
+     margin:10px;
+position: absolute;
+bottom: 10px;   
+left: -8px;
+}
+.boxes{
+    display: flex;
+    justify-content: space-between;
+}
+
+ #box .image{
+    width: 285px;
+    height: 200px;
+    border-radius: 4px;
+    object-fit: cover;
+    border: 15px solid rgba(135, 207, 235, 0.331);
+}
+.image img{
+    height: 100%;
+    width: 100%;
+}
+.content h4 {
+    width: 287px;
+    /* height: 50px; */
+    font-size: 18.2px;
+}
+.content p{
+    padding: 5px 0;
+   width: 228px;
+}
+.boxes h2{
+    text-align: center;
+}
+.content a{
+  text-decoration: none;
+    
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 14px;
+    padding: 8px 8px;
+}
+
+.content a:hover{
+    background-color: rgb(12, 12, 84);
+}
+#box{
+    border-radius: 6px;
+   width: 290px;
+    height: 425px;
+    text-align: left;
+    padding: 0px 5px;
+   
+    background-color: #dedede;
+}
+.center-box{
+
+        display: flex;
+    align-items: center;
+    gap: 25px;
+    justify-content: center;
+    
+    
+}
+.kerafixconstruction-chemical{
+    background-color: blue;
+    /* height: 50vh; */
+    width: 100%;
+    color: white;
+    padding-bottom: 20px;
+    margin-top: 4rem;
+}
+.concrete {
+  width: 30%;
+   text-align:start;
+   background-color:rgba(245, 245, 245, 0.295);
+   padding: 20px 10px;
+   border-radius: 20px;
+  
+}
+.concrete h3{
+    padding: 10px;
+}
+.clients{
+    margin: 40px 0;
+}
+.main-client{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+}
+.client{
+    background-color: #dedede70;
+    width: 250px;
+    height: 100px;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.customer-say h2{
+ width: 100%;
+ margin: auto;
+}
+.overview-customer{
+    background-color: white;
+    margin: 10px 110px;
+    height: 130px;
+    width: 80%;
+    position: relative;
+    padding: 10px 10px 110px 10px;
+    box-shadow: 2px 2px 10px gray;
+    border-radius: 7px;
+    font-size: 17px;
+   
+}
+.bottom-text{
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    flex-direction: column;
+    /* justify-content: end; */
+    align-items: end;
+    padding: 8px 14px;
+    
+}
+footer{
+    margin-top: 100px;
+   width: 100%;
+   background-color:blue;
+    padding: 20px 20px 20px;
+    display: flex;
+    gap: 21px;
+    align-items: center;
+    justify-content: space-between;
+
+}
+.footer-logo{
+    width: 300px;
+}
+.footer-logo p{
+    color: white;
+    padding: 10px 0;
+}
+.image-footer{
+   height: 70px;
+    width: 220px;
+
+}
+.image-footer img{
+    height: 100%;
+    width: 100%;
+}
+ .footer-logo h3{
+    color: orangered;
+    align-items: start;
+    padding: 10px 0;
+}
+.company ul , .support ul, .gettouch ul{
+    list-style: none;
+    color: white;
+    line-height: 1.6rem;
+}
+footer h4{
+    color: white;
+    padding: 10px 0;
+}
+
