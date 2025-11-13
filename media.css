@@ -3,11 +3,19 @@
     height: 300px;
   }
 }
-@media (max-width: 1024px) {
+
+@media (max-width: 1300px) {
   .boxes {
-    /* flex-wrap: wrap; */
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
     row-gap: 18px;
   }
+  #box {
+    width: 48%;
+  }
+}
+
+@media (max-width: 1024px) {
   .main-client {
     flex-wrap: wrap;
     row-gap: 18px;
@@ -32,6 +40,9 @@
   }
   .menuicon {
     display: block;
+  }
+  #box {
+    width: 100%;
   }
 }
 @media (max-width: 575px) {
