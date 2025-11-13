@@ -1,84 +1,85 @@
-@media (max-width:1024px){
-    .boxes{
-        flex-wrap: wrap;
-        row-gap: 18px;
-    }
-    .main-client{
-        flex-wrap: wrap;
-        row-gap: 18px;
-    }
-    .concrete{
-        height: 280px;
-    }
-     .center-box{
-        flex-wrap: wrap;
-    }
+@media (max-width: 1440px) {
+  .concrete {
+    height: 300px;
+  }
 }
-@media (max-width:768px){
-    .center-image{
-        width: 600px;
-      height: 200px;
-    }
-    .header-text{
-        width: 60%;
-    }
-    .right-btn {
-        display: none;
-    }
-    .menuicon{
-        display: block;
-    }
-    
-   
+@media (max-width: 1024px) {
+  .boxes {
+    /* flex-wrap: wrap; */
+    row-gap: 18px;
+  }
+  .main-client {
+    flex-wrap: wrap;
+    row-gap: 18px;
+  }
+  .concrete {
+    height: 280px;
+  }
+  .center-box {
+    flex-wrap: wrap;
+  }
 }
-@media (max-width:575px){
-    .header-text{
-        width: 80%  ;
-    }
-    .center-image{
-         width: 500px;
-      height: 200px;
-    }
-    .boxes{
-        justify-content: center;
+@media (max-width: 768px) {
+  .center-image {
+    width: 600px;
+    height: 200px;
+  }
+  .header-text {
+    width: 60%;
+  }
+  .right-btn {
+    display: none;
+  }
+  .menuicon {
+    display: block;
+  }
+}
+@media (max-width: 575px) {
+  .header-text {
+    width: 80%;
+  }
+  .center-image {
+    width: 500px;
+    height: 200px;
+  }
+  .boxes {
+    justify-content: center;
+  }
 
-    }
-    
-    .image-footer{
-        height: 59px;
+  .image-footer {
+    height: 59px;
     width: 174px;
-    }
-    footer{
-        flex-wrap: wrap;
-    }
-    
+  }
+  footer {
+    flex-wrap: wrap;
+  }
 }
-@media (max-width:508px){
-    .kerafixconstruction-chemical{
-        text-align: center;
-    }
-    
-    .overview-customer{
-        width: 85%;
-    }
+@media (max-width: 508px) {
+  .kerafixconstruction-chemical {
+    text-align: center;
+  }
+
+  .overview-customer {
+    width: 85%;
+  }
 }
-@media (max-width:475px){
-    .concrete{
-        width: 32%;
-    }
-    .concrete h3{
-        padding: 0px;
-    }
-    /* .center-image{
+@media (max-width: 475px) {
+  .concrete {
+    width: 32%;
+  }
+  .concrete h3 {
+    padding: 0px;
+  }
+  /* .center-image{
          width: 450px;
       height: 180px;
     } */
-    .center-imagetext{
-        left: 2px;
-        bottom: 0px;
-    }
-    .center-imagetext h4{
-        left: 5px;
-        bottom: 32px;
-    }
+  .center-imagetext {
+    left: 2px;
+    bottom: 0px;
+  }
+  .center-imagetext h4 {
+    left: 5px;
+    bottom: 32px;
+  }
 }
